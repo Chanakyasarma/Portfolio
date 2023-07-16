@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Banner = () => {
     const handleButtonClick = () => {
-        window.open('https://drive.google.com/file/d/1shr0Gwm8bFL9cw0ptalBlsN03Vz8IZeE/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/11kYzeRUv04UWzggGZhrZfmpfaAmI0Zmk/view?usp=sharing', '_blank');
       };
       const handleButtonClick2 = () => {
         window.open('https://www.linkedin.com/in/chanakya-sarma/', '_blank');
@@ -24,11 +24,11 @@ const Banner = () => {
                 <div v className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
                     <span className='mr-4'>A</span>
                     <TypeAnimation sequence={[
-                        'Developer',
+                        'Web Developer',
                         2000,
                         'Designer',
                         2000,
-                        'Data Analyst',
+                        'Software Developer',
                         2000,
                     ]} speed={50}
                     className='text-accent'
