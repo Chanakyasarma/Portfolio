@@ -13,7 +13,7 @@ const Services = () => {
         <li className="flex items-start">
           <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
           <div className="ml-2 border-l border-red-500 pl-4">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-8">
         <div className="w-full">
           <h3 className="text-lg font-bold">The Assam Kaziranga University</h3>
           <p className="text font-semibold">Bachelor of Technology in Computer Science</p>
@@ -25,7 +25,7 @@ const Services = () => {
         <li className="flex items-start">
           <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
           <div className="ml-2 border-l border-red-500 pl-4">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-8">
         <div className="w-full">
           <h3 className="text-lg font-bold">Sai RNS Academy, Guwahati</h3>
           <p className="text font-semibold">Class 12 (CBSE)</p>
@@ -37,7 +37,7 @@ const Services = () => {
         <li className="flex items-start">
           <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
           <div className="ml-2 border-l border-red-500 pl-4">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-8">
         <div className="w-full">
           <h3 className="text-lg font-bold">South Point School, Guwahati</h3>
           <p className="text font-semibold">Class 10 (CBSE)</p>
@@ -56,7 +56,31 @@ const Services = () => {
         <li className="flex items-start">
           <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
           <div className="ml-2 border-l border-red-500 pl-4">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-3">
+        <div className="w-full">
+          <h3 className="text-lg font-bold">TigmaMinds</h3>
+          <p className="text font-semibold">Software Developer Trainee</p>
+          <p className="text font-semibold">October 2023 - Present</p>
+        </div>
+      </div>
+          </div>
+        </li>
+        <li className="flex items-start">
+          <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
+          <div className="ml-2 border-l border-red-500 pl-4">
+          <div className="flex items-center mb-3">
+        <div className="w-full">
+          <h3 className="text-lg font-bold">Attitude N' Altitude IT & Consultancy Services</h3>
+          <p className="text font-semibold">Web developer</p>
+          <p className="text font-semibold">July 2023 -  October 2023</p>
+        </div>
+      </div>
+          </div>
+        </li>
+        <li className="flex items-start">
+          <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
+          <div className="ml-2 border-l border-red-500 pl-4">
+          <div className="flex items-center mb-3">
         <div className="w-full">
           <h3 className="text-lg font-bold">TechVariable</h3>
           <p className="text font-semibold">Junior Programmer Analyst Trainee</p>
@@ -68,7 +92,7 @@ const Services = () => {
         <li className="flex items-start">
           <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
           <div className="ml-2 border-l border-red-500 pl-4">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-3">
         <div className="w-full">
           <h3 className="text-lg font-bold">Tcs ION</h3>
           <p className="text font-semibold">Intern</p>
@@ -80,10 +104,10 @@ const Services = () => {
         <li className="flex items-start">
           <div className="w-2 h-2 bg-red-500 rounded-full mt-1"></div>
           <div className="ml-2 border-l border-red-500 pl-4">
-          <div className="flex items-center mb-6">
+          <div className="flex items-center mb-3">
         <div className="w-full">
           <h3 className="text-lg font-bold">Friends For Inclusion</h3>
-          <p className="text font-semibold">Software Developer</p>
+          <p className="text font-semibold">Software Developer Intern</p>
           <p className="text font-semibold">June 2021- July 2022</p>
         </div>
       </div>

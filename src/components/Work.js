@@ -56,15 +56,14 @@ I have created a portfolio website using HTML, Tailwind CSS, and ReactJS. This w
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt=''/>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
-              <a className='text-3xl text-white underline decoration-rose-500' href='https://gamer-gray.vercel.app/'>Demo</a></div>
+              <a className='text-3xl text-white underline decoration-rose-500' href='https://samvaad-chat-app.netlify.app/'>Demo</a></div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40'>
-              <a className='text-gradient underline decoration-white' href='https://github.com/Chanakyasarma/ReactGAMER'>Code</a>
+              <a className='text-gradient underline decoration-white' href='https://github.com/Chanakyasarma/Samvaad-The_chat_app'>Code</a>
             </div>
         </div>
         <div className='flex flex-col text-right sm:hidden'>
-            <h2 className='h2 text-accent'>GameSite</h2>
-            <p className='max-w-md font-medium'>GameSite is an online platform that offers valuable insights from the gaming industry. It provides information on new game trailers and direct links to the official websites, all conveniently located in one place. Built using Html5, React JS, and the Chakra UI library, 
-            GameSite delivers a seamless user experience for gaming enthusiasts seeking the latest updates and easy access to their favorite game site.</p>
+            <h2 className='h2 text-accent'>SamVaad:Chat-app</h2>
+            <p className='max-w-md font-medium'>Samvaad is a realtime chat app built with Vite, React, TypeScript, Firebase, and other technologies. This chat app is purposefully made for the web, like a web chat app, but it also works on mobile devices.Some of the Unique feature of this appication are realtime chat, translate chat to multiple language, react to message, send files and images </p>
         </div>
         </div>
         </div>
