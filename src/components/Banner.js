@@ -21,7 +21,7 @@ const Banner = () => {
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
             <div className='flex-1 text-center font-secondary lg:text-left'>
                 <h1 className='text-[50px] font-bold leading-[0.8] lg:text-[65px] mb-4'>I am Chanakya <span>Sarma</span></h1>
-                <div v className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
+                <div className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
                     <span className='mr-4'>A</span>
                     <TypeAnimation sequence={[
                         'Web Developer',
@@ -59,7 +59,7 @@ const Banner = () => {
             <div className='img lg:flex items-center justify-center lg:h-[500px] md:mx-20 mb-24 pb-14'>
                     <div className='group relative h-full w-full overflow-hidden rounded-b-full aspect-[1/1.35] flex items-end'>
                         <div className='bg-red-500 absolute h-3/4 w-full rounded-full object-cover bottom-0 border-2 border-white'></div>
-                        <img className='relative h-max group-hover:scale-150 w-full transition-all duration-500' src={Image} alt='image'ver/>
+                        <img className='relative h-max group-hover:scale-150 w-full transition-all duration-500' src={Image} alt='image'/>
                     </div>
             </div>
         </div>
