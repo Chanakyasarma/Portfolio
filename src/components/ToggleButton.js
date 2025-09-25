@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 const ToggleButton = () => { 
   const [isDarkMode, setIsDarkMode] = useState(true); 
   useEffect(() => {
-    const root = document.documentElement; // <html>
     if (isDarkMode) {
-      root.classList.add('dark');
+      document.body.classList.add('dark-mode');
     } else {
-      root.classList.remove('dark');
+      document.body.classList.remove('dark-mode');
     }
   }, [isDarkMode]);
   const handleToggle = () => { 
