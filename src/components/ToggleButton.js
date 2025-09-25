@@ -1,6 +1,13 @@
 import React, { useState } from 'react'; 
 const ToggleButton = () => { 
   const [isDarkMode, setIsDarkMode] = useState(true); 
+  useEffect(() => {
+  if (isDarkMode) {
+    document.documentElement.classList.add('dark'); // Tailwind expects 'dark' on html
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+}, [isDarkMode]);
   const handleToggle = () => { 
     setIsDarkMode(!isDarkMode); 
     document.body.classList.toggle('dark-mode'); };
