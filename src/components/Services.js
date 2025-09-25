@@ -59,7 +59,7 @@ const Services = () => {
           <div className="flex items-center mb-3">
         <div className="w-full">
           <h3 className="text-lg font-bold">TigmaMinds</h3>
-          <p className="text font-semibold">Software Developer Trainee</p>
+          <p className="text font-semibold">Software Developer</p>
           <p className="text font-semibold">October 2023 - Present</p>
         </div>
       </div>
