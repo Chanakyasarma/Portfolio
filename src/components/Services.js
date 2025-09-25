@@ -60,7 +60,7 @@ const Services = () => {
         <div className="w-full">
           <h3 className="text-lg font-bold">TigmaMinds</h3>
           <p className="text font-semibold">Software Developer</p>
-          <p className="text font-semibold">October 2023 - Present</p>
+          <p className="text font-semibold">October 2023 - Present (2 years)</p>
         </div>
       </div>
           </div>
