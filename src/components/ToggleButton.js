@@ -1,6 +1,6 @@
 import React, { useState } from 'react'; 
 const ToggleButton = () => { 
-  const [isDarkMode, setIsDarkMode] = useState(false); 
+  const [isDarkMode, setIsDarkMode] = useState(true); 
   const handleToggle = () => { 
     setIsDarkMode(!isDarkMode); 
     document.body.classList.toggle('dark-mode'); };
