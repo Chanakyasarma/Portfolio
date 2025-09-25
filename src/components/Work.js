@@ -20,6 +20,7 @@ const Work = () => {
           </div>
           <div className='max-h-xl max-w-7xl flex flex-col item-center justify-center'>
           <div className='flex flex-col lg:flex-row lg:justify-between my-6 lg:my-10'>
+          <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">Portfolio</h2>
           <div className='group relative h-full lg:h-80 w-full lg:w-1/2 overflow-hidden border-2 border-black/50 rounded-xl'>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt=''/>
