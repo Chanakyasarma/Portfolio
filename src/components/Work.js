@@ -20,10 +20,10 @@ const Work = () => {
           </div>
           <div className='max-h-xl max-w-7xl flex flex-col item-center justify-center'>
           <div className='flex flex-col lg:flex-row lg:justify-between my-6 lg:my-10'>
-          
+          <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">Portfolio</h2>
           <div className='group relative h-full lg:h-80 w-full lg:w-1/2 overflow-hidden border-2 border-black/50 rounded-xl'>
-            <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">Portfolio</h2>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            
             <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt=''/>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
               <a className='text-3xl text-white underline decoration-rose-500' href='#'>Demo</a></div>
@@ -42,9 +42,10 @@ I have created a portfolio website using HTML, Tailwind CSS, and ReactJS. This w
             <h2 className='h2 text-accent'>YouTube Clone</h2>
             <p className='max-w-md font-medium'>The project I developed is a YouTube clone created using React, HTML, and CSS. I leveraged various tools and concepts such as React Router to handle navigation within the application. 
             Additionally, I integrated the YouTube API, which allowed me to fetch real-time data from YouTube, enabling users to access the latest videos, view likes and other relevant information.
-            </p></div>  
+            </p></div> 
+          <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">YouTube Clone</h2>
           <div className='group relative h-full lg:h-80 w-full lg:w-1/2 overflow-hidden border-2 border-black/50 rounded-xl'>
-            <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">YouTube Clone</h2>
+            
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt=''/>
             <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
@@ -55,6 +56,7 @@ I have created a portfolio website using HTML, Tailwind CSS, and ReactJS. This w
         </div>
         </div>
         <div className='flex flex-col lg:flex-row justify-between my-6 lg:my-10'>
+    <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">YouTube Clone</h2>
         <div className='group relative h-full lg:h-80 w-full lg:w-1/2 overflow-hidden border-2 border-black/50 rounded-xl'>
             <h2 className="text-accent text-xl font-bold mb-2 lg:hidden">SamVaad:Chat-app</h2>
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
