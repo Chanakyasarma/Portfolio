@@ -17,7 +17,9 @@ import pic2 from './assets/portfolio-img2.png';
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  const images = [Avatar ,pic1,pic2];
+  useEffect(() => {
+    // Preload all important images
+    const images = [Avatar ,pic1, pic2];
 
     let loadedCount = 0;
 
