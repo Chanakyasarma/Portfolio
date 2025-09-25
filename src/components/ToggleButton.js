@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 const ToggleButton = () => { 
   const [isDarkMode, setIsDarkMode] = useState(true); 
-  seEffect(() => {
+  useEffect(() => {
     const root = document.documentElement; // <html>
     if (isDarkMode) {
       root.classList.add('dark');
