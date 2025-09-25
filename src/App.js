@@ -9,16 +9,30 @@ import "./index.css";
 import Footer from './components/Footer';
 import Lottie from 'lottie-react'
 import data from './assets/loading.json'
+import Avatar from './assets/avatar.png'
+import pic1 from './assets/portfolio-img1.png'
+import pic2 from './assets/portfolio-img2.png'
+
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulating an asynchronous operation
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
+  const images = [Avatar ,pic1,pic2];
+
+    let loadedCount = 0;
+
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = img.onerror = () => {
+        loadedCount++;
+        if (loadedCount === images.length) {
+          setIsLoading(false); // all images loaded
+        }
+      };
+    });
   }, []);
+
 
   return (
     <>
