@@ -7,11 +7,11 @@ import Services from './components/Services';
 import Work from './components/Work';
 import "./index.css";
 import Footer from './components/Footer';
-import Lottie from 'lottie-react'
-import data from './assets/loading.json'
-import Avatar from './assets/avatar.png'
-import pic1 from './assets/portfolio-img1.png'
-import pic2 from './assets/portfolio-img2.png'
+import Lottie from 'lottie-react';
+import data from './assets/loading.json';
+import Avatar from './assets/avatar.png';
+import pic1 from './assets/portfolio-img1.png';
+import pic2 from './assets/portfolio-img2.png';
 
 
 const App = () => {
