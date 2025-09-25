@@ -57,10 +57,19 @@ const Banner = () => {
                 </div>
             </div>
             <div className='img lg:flex items-center justify-center lg:h-[500px] md:mx-20 mb-24 pb-14'>
-                    <div className="group relative h-full w-full overflow-hidden rounded-full aspect-square flex items-center justify-center">
-                      <div className="bg-red-500 absolute inset-0 border-2 border-white rounded-full"></div>
+                    <div className="group relative h-full w-full overflow-hidden rounded-b-full aspect-[1/1.35] flex items-end">
+                      <div className="bg-red-500 absolute h-3/4 w-full rounded-full bottom-0 border-2 border-white"></div>
+                    
+                      {/* Mobile: image stays clipped */}
                       <img
-                        className="relative w-full h-full object-cover transition-all duration-500 lg:group-hover:scale-110"
+                        className="relative w-full h-full object-cover lg:hidden"
+                        src={Image}
+                        alt="image"
+                      />
+                    
+                      {/* Desktop: image zooms out of the circle */}
+                      <img
+                        className="relative h-max w-full transition-all duration-500 hidden lg:block group-hover:scale-150"
                         src={Image}
                         alt="image"
                       />
