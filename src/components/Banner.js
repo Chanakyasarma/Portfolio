@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Banner = () => {
     const handleButtonClick = () => {
-        window.open('https://drive.google.com/file/d/1vuydCaXHwP-gXa-w-sxEQJq_LVrd32N9/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/1AxEl-uCvY8xuMOFUnFDb6jIxVaTO4fen/view?usp=sharing', '_blank');
       };
       const handleButtonClick2 = () => {
         window.open('https://www.linkedin.com/in/chanakya-sarma/', '_blank');
