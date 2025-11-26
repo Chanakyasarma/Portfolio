@@ -17,7 +17,7 @@ function Footer() {
                 <a className='cursor-pointer w-[50px]' href='https://twitter.com/chanakyasarma4' ><AiFillTwitterCircle className='w-[40px] h-[40px]' /></a>
                 <a className="cursor-pointer w-[50px]" href='https://github.com/Chanakyasarma'><AiFillGithub className='w-[40px] h-[40px]'/></a>
                 <a className="cursor-pointer w-[50px]" href='https://www.linkedin.com/in/chanakya-sarma/'><AiFillLinkedin className='w-[40px] h-[40px]'/></a>
-                <a className="cursor-pointer w-[50px]" href='mailto:chanakyasarmakashyap@gmail.com'><MdEmail className='w-[40px] h-[40px]'/></a>
+                <a className="cursor-pointer w-[50px]" href='mailto:chanakyasarma6@gmail.com'><MdEmail className='w-[40px] h-[40px]'/></a>
               </div>
             </div>
           </div>
